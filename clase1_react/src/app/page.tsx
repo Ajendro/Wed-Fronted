@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Componets from './componets'
 import Profile from './componets'
+import Botton from './componets'
+import Botton1 from './componets'
+
 import Componets2 from './componets2'
 
 export default function Home() {
@@ -14,6 +17,9 @@ export default function Home() {
         <Componets/>
         <Componets2/>
         <Profile/>
+        <Botton/>
+        <Botton1/>
+        
         
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
           <a

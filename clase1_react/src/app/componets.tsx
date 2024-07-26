@@ -1,3 +1,6 @@
+'use client';
+import {onsumit} from './hook.js'
+import {onsumitPost} from './hook.js'
 export function Profile() {
     return (
       <img
@@ -16,6 +19,22 @@ export function Profile() {
     );
   
   }
+export function Botton() {
+  return(
+    <button type = "button" onClick={onsumit}>
+      Enviar info
+    </button>
+  );
+}
+
+export function Botton1() {
+  return(
+    <button type = "button" onClick={onsumitPost}>
+      Llamar Post 
+    </button>
+  );
+}
+
 
   export default function componets(){
     return(
@@ -23,6 +42,9 @@ export function Profile() {
             <Profile />
             <Profile />
             <Tabla/>
+            <Botton />
+            <Botton1 />
         </section>
     );
   }
+
